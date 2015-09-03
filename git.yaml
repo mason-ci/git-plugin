@@ -1,0 +1,12 @@
+name: git
+version: 0.0.1
+author: Mason CI
+site: 
+type: scm
+description: >
+  Connect to git repositories.
+settings:
+  path: string
+  branches:
+    build: string-list
+    ignore: string-list
